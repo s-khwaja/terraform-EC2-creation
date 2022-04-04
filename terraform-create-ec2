@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-west-1"
 }
-resource "aws_instance" "terraform_EC2_example" {
+resource "aws_instance" "terraform_EC2" {
   ami           = "ami-04a50faf2a2ec1901"
   key_name = "terraform-key"
   instance_type = "t2.micro"
